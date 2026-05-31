@@ -77,3 +77,16 @@ nav a:hover {
 #connect a:hover {
     color: purple;
 }
+
+#skills ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  list-style-type: none;
+  padding: 0;
+}
+
+#skills li {
+  border: 1px solid rgb(230, 13, 172);
+  padding: 10px;
+}
