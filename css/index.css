@@ -1,0 +1,79 @@
+body {
+    background-color: black;
+    color: lightpink;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+}
+
+h1 {
+    color: rgb(158, 2, 255);
+    text-align: center;
+    font-size: 40px;
+}
+
+h2 {
+    color: hotpink;
+    font-weight: bold;
+ }
+
+section {
+    background-color: #1a1a1a;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid hotpink;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    margin: 10px;
+}
+
+nav a {
+    color: lightpink;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: purple;
+}
+
+#experience ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    list-style-type: none;
+    padding: 0;
+}
+
+#experience li {
+    background-color: #2a2a2a;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    border-left: 4px solid purple;
+}
+
+#connect ul {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    padding: 0;
+}
+
+#connect a {
+    color: hotpink;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#connect a:hover {
+    color: purple;
+}
