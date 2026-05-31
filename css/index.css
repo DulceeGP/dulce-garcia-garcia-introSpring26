@@ -11,6 +11,11 @@ h1 {
     font-size: 40px;
 }
 
+h2 {
+    color: hotpink;
+    font-weight: bold;
+ }
+
 section {
     background-color: #1a1a1a;
     margin: 20px;
@@ -38,6 +43,14 @@ nav a {
 
 nav a:hover {
     color: purple;
+}
+
+#experience ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    list-style-type: none;
+    padding: 0;
 }
 
 #experience li {
