@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title> Dulce Garcia Garcia's Portstfolio</title>
+        <title>Dulce Garcia Garcia's Portstfolio</title>
          <meta charset="UTF-8">
     <meta name="description" content="Portfolio page for Intro to Programming">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,6 +16,7 @@
     <h1>Dulce Garcia Garcia</h1>
   <nav>
     <ul>
+      <li><a href="#leave-message">Leave a Message</a></li>
       <li><a href="#about">About</a></li>
       <li><a href="#experience">Experience</a></li>
       <li><a href="#skills">Skills</a></li>
@@ -56,7 +57,29 @@
         <li><a href="https://www.linkedin.com/in/dulce-garcía-362507395">LinkedIn</a></li>
     </ul>
 </section>
+
+<section id="leave-message">
+  <h2>Leave a Message</h2>
+
+  <form name="leave_message">
+    <label>Name:</label><br>
+    <input type="text" name="usersName" required><br><br>
+
+    <label>Email:</label><br>
+    <input type="email" name="usersEmail" required><br><br>
+
+    <label>Message:</label><br>
+    <textarea name="usersMessage" required></textarea><br><br>
+
+    <button type="submit">Submit</button>
+  </form>
+</section>
     
+<section id="messages">
+  <h2>Messages</h2>
+  <ul></ul>
+</section>
+
 <script src="js/index.js"></script>
 
 </body>

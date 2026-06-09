@@ -90,3 +90,17 @@ nav a:hover {
   border: 1px solid rgb(230, 13, 172);
   padding: 10px;
 }
+
+#leave-message input,
+#leave-message textarea {
+    margin-bottom: 10px;
+    padding: 8px;
+}
+
+#leave-message button {
+    padding: 8px;
+}
+
+#messages button {
+    margin-left: 10px;
+}
