@@ -89,4 +89,8 @@ fetch("https://api.github.com/users/DulceeGP/repos")
   })
   .catch(function (error) {
     console.log(error);
+
+    const projectSection = document.querySelector("#projects");
+
+    projectSection.innerHTML += "<p>Error loading projects.</p>";
   });
