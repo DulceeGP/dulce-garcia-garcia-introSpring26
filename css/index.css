@@ -104,3 +104,16 @@ nav a:hover {
 #messages button {
     margin-left: 10px;
 }
+
+#projects ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    list-style-type: none;
+    padding: 0;
+}
+
+#projects li {
+    border: 1px solid hotpink;
+    padding: 10px;
+}

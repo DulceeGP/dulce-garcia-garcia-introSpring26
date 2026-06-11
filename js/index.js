@@ -68,3 +68,29 @@ messageForm.addEventListener("submit", function (event) {
 
   messageForm.reset();
 });
+
+fetch("https://api.github.com/users/DulceeGP/repos")
+  .then(function (response) {
+    return response.json();
+  })
+  .then(function (repositories) {
+    console.log(repositories);
+
+    const projectSection = document.querySelector("#projects");
+    const projectList = projectSection.querySelector("ul");
+
+    for (let i = 0; i < repositories.length; i++) {
+      const project = document.createElement("li");
+
+      project.innerText = repositories[i].name;
+
+      projectList.appendChild(project);
+    }
+  })
+  .catch(function (error) {
+    console.log(error);
+
+    const projectSection = document.querySelector("#projects");
+
+    projectSection.innerHTML += "<p>Error loading projects.</p>";
+  });
